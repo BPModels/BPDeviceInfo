@@ -1,0 +1,16 @@
+PODS:
+  - BPDeviceInfo (0.1.0)
+
+DEPENDENCIES:
+  - BPDeviceInfo (from `../`)
+
+EXTERNAL SOURCES:
+  BPDeviceInfo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BPDeviceInfo: 31c8feb2a78c41a866ab61b09ddf4ba911ec0c66
+
+PODFILE CHECKSUM: 43262522bb8e266b2e57551fb39174a7b8d4bd45
+
+COCOAPODS: 1.10.1

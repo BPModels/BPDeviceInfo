@@ -1,0 +1,6 @@
+framework module Pods_BPDeviceInfo_Tests {
+  umbrella header "Pods-BPDeviceInfo_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
