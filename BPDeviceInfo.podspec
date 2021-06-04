@@ -17,7 +17,7 @@ This is description
 
   s.homepage         = 'https://github.com/BPModels/BPDeviceInfo'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'sam' => '916878440@qq.com' }
+  s.author           = { 'TestEngineerFish' => '916878440@qq.com' }
   s.source           = { :git => 'https://github.com/BPModels/BPDeviceInfo.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
