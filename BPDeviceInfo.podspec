@@ -9,34 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'BPDeviceInfo'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BPDeviceInfo.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'Get device info'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
+This is description
                        DESC
 
-  s.homepage         = 'https://github.com/sam/BPDeviceInfo'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/BPModels/BPDeviceInfo'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sam' => '916878440@qq.com' }
-  s.source           = { :git => 'https://github.com/sam/BPDeviceInfo.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/BPModels/BPDeviceInfo.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'BPDeviceInfo/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'BPDeviceInfo' => ['BPDeviceInfo/Assets/*.png']
-  # }
+  s.source_files = 'BPDeviceInfo/**/*.{h,m,swift}'
+  s.swift_versions = '5.0'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
