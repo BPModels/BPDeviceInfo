@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22AC75792668DE5800B1B835 /* BPDeviceInfoGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AC75782668DE5800B1B835 /* BPDeviceInfoGlobal.swift */; };
-		22AC757B2668DECA00B1B835 /* BPDeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AC757A2668DECA00B1B835 /* BPDeviceInfo.swift */; };
+		22AC757F2669D36E00B1B835 /* BPDeviceInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AC757D2669D36E00B1B835 /* BPDeviceInfo.swift */; };
+		22AC75802669D36E00B1B835 /* BPDeviceInfoGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AC757E2669D36E00B1B835 /* BPDeviceInfoGlobal.swift */; };
 		26C23072A51DE3DF9E1F250B9522F134 /* Pods-BPDeviceInfo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C41591DAAF93C63F3E157ABF4F93CA0B /* Pods-BPDeviceInfo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34B886FF8D3F22D6ABF2EA649DA6F2A4 /* Pods-BPDeviceInfo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16143307B0131A9EF18472D83621E2F9 /* Pods-BPDeviceInfo_Tests-dummy.m */; };
 		37F093A065FEA37680576E16708ACCAD /* BPDeviceInfo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42125099E95615BAE3781B274541A6CD /* BPDeviceInfo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,8 +31,8 @@
 		040D4F87942A7D6A18FC97E15E256CA3 /* Pods-BPDeviceInfo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BPDeviceInfo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		0B76735333FB5D0CD7AF7327D13FAABA /* BPDeviceInfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BPDeviceInfo-prefix.pch"; sourceTree = "<group>"; };
 		16143307B0131A9EF18472D83621E2F9 /* Pods-BPDeviceInfo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BPDeviceInfo_Tests-dummy.m"; sourceTree = "<group>"; };
-		22AC75782668DE5800B1B835 /* BPDeviceInfoGlobal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPDeviceInfoGlobal.swift; sourceTree = "<group>"; };
-		22AC757A2668DECA00B1B835 /* BPDeviceInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPDeviceInfo.swift; sourceTree = "<group>"; };
+		22AC757D2669D36E00B1B835 /* BPDeviceInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BPDeviceInfo.swift; path = ../BPDeviceInfo/Classes/BPDeviceInfo.swift; sourceTree = "<group>"; };
+		22AC757E2669D36E00B1B835 /* BPDeviceInfoGlobal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BPDeviceInfoGlobal.swift; path = ../BPDeviceInfo/Classes/BPDeviceInfoGlobal.swift; sourceTree = "<group>"; };
 		27605CDE113873F1721A369010B1C762 /* Pods_BPDeviceInfo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BPDeviceInfo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2770E26370C5CD3B39FBDB6B14EFFD55 /* BPDeviceInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BPDeviceInfo.debug.xcconfig; sourceTree = "<group>"; };
 		42125099E95615BAE3781B274541A6CD /* BPDeviceInfo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BPDeviceInfo-umbrella.h"; sourceTree = "<group>"; };
@@ -95,6 +95,8 @@
 		22AC757C2668EE3B00B1B835 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				22AC757D2669D36E00B1B835 /* BPDeviceInfo.swift */,
+				22AC757E2669D36E00B1B835 /* BPDeviceInfoGlobal.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -118,8 +120,6 @@
 		80A9075E94707E8ACF8FCD6A7A8B7D03 /* BPDeviceInfo */ = {
 			isa = PBXGroup;
 			children = (
-				22AC75782668DE5800B1B835 /* BPDeviceInfoGlobal.swift */,
-				22AC757A2668DECA00B1B835 /* BPDeviceInfo.swift */,
 				22AC757C2668EE3B00B1B835 /* Classes */,
 				FC47B87111BFDA54003D81BB054B6810 /* Pod */,
 				E8780D9CF2F02139124574FC26BFEEBD /* Support Files */,
@@ -256,6 +256,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					F978B42F1183E07879E5218216E94FE5 = {
+						LastSwiftMigration = 1250;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -307,8 +312,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				53C1687089015CCD0797C0A9A0317AB5 /* BPDeviceInfo-dummy.m in Sources */,
-				22AC75792668DE5800B1B835 /* BPDeviceInfoGlobal.swift in Sources */,
-				22AC757B2668DECA00B1B835 /* BPDeviceInfo.swift in Sources */,
+				22AC75802669D36E00B1B835 /* BPDeviceInfoGlobal.swift in Sources */,
+				22AC757F2669D36E00B1B835 /* BPDeviceInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2770E26370C5CD3B39FBDB6B14EFFD55 /* BPDeviceInfo.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -408,6 +414,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -517,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 844CED209970E4E20D1244FEB08C6BEA /* BPDeviceInfo.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
