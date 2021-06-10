@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "SimulateIDFA.h"
 
 FOUNDATION_EXPORT double BPDeviceInfoVersionNumber;
 FOUNDATION_EXPORT const unsigned char BPDeviceInfoVersionString[];

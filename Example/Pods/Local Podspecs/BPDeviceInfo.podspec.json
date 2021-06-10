@@ -1,22 +1,22 @@
 {
   "name": "BPDeviceInfo",
-  "version": "0.1.0",
-  "summary": "A short description of BPDeviceInfo.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sam/BPDeviceInfo",
+  "version": "0.1.1",
+  "summary": "Get device info",
+  "description": "TODO: Add long description of the pod here.\nThis is description",
+  "homepage": "https://github.com/BPModels/BPDeviceInfo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "sam": "916878440@qq.com"
+    "TestEngineerFish": "916878440@qq.com"
   },
   "source": {
-    "git": "https://github.com/sam/BPDeviceInfo.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/BPModels/BPDeviceInfo.git",
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
-  "source_files": "BPDeviceInfo/Classes/**/*"
+  "source_files": "BPDeviceInfo/**/*.{h,m,swift}"
 }
