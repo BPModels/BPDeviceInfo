@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		165C2A803D05C079C3C15FAF17F6184D /* SimulateIDFA.h in Headers */ = {isa = PBXBuildFile; fileRef = D16836DD79B7A7CF77D66C2D0D8AE589 /* SimulateIDFA.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22A26F38267C81A8009208AC /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A26F37267C81A8009208AC /* Bundle+Extension.swift */; };
 		26C23072A51DE3DF9E1F250B9522F134 /* Pods-BPDeviceInfo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C41591DAAF93C63F3E157ABF4F93CA0B /* Pods-BPDeviceInfo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2895B2995093BBE44AE143C63F3FF0FC /* BPDeviceInfo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88C3891DB70394B6DA91BB344B8B586F /* BPDeviceInfo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		34B886FF8D3F22D6ABF2EA649DA6F2A4 /* Pods-BPDeviceInfo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16143307B0131A9EF18472D83621E2F9 /* Pods-BPDeviceInfo_Tests-dummy.m */; };
@@ -34,13 +35,14 @@
 		040D4F87942A7D6A18FC97E15E256CA3 /* Pods-BPDeviceInfo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BPDeviceInfo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		08115CC715214205F6CEC07D509CB767 /* BPDeviceInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BPDeviceInfo.swift; path = BPDeviceInfo/Classes/BPDeviceInfo.swift; sourceTree = "<group>"; };
 		16143307B0131A9EF18472D83621E2F9 /* Pods-BPDeviceInfo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BPDeviceInfo_Tests-dummy.m"; sourceTree = "<group>"; };
-		21E5B79641B13ED0D8A00BE4B669C456 /* BPDeviceInfo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = BPDeviceInfo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		27605CDE113873F1721A369010B1C762 /* Pods_BPDeviceInfo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BPDeviceInfo_Tests.framework; path = "Pods-BPDeviceInfo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21E5B79641B13ED0D8A00BE4B669C456 /* BPDeviceInfo.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = BPDeviceInfo.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		22A26F37267C81A8009208AC /* Bundle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Bundle+Extension.swift"; path = "BPDeviceInfo/Classes/Bundle+Extension.swift"; sourceTree = "<group>"; };
+		27605CDE113873F1721A369010B1C762 /* Pods_BPDeviceInfo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BPDeviceInfo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ABD6DE054BA069A65EC2EEA9E9059E8 /* BPDeviceInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BPDeviceInfo.release.xcconfig; sourceTree = "<group>"; };
 		421817E3852022ACC59ABE9480B497CE /* Pods-BPDeviceInfo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BPDeviceInfo_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		527D6F9207AC856F92414281C75C76AA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		527D6F9207AC856F92414281C75C76AA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		608F26CBF4E98EC782294010FF3B14BE /* SimulateIDFA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SimulateIDFA.m; path = BPDeviceInfo/Classes/SimulateIDFA.m; sourceTree = "<group>"; };
-		6A08589E8A2240869E97735E280AF221 /* BPDeviceInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BPDeviceInfo.framework; path = BPDeviceInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A08589E8A2240869E97735E280AF221 /* BPDeviceInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BPDeviceInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC48DA4F16F4DDACF009FCA34AEC915 /* BPDeviceInfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BPDeviceInfo-prefix.pch"; sourceTree = "<group>"; };
 		703B5A183084B5807481C327436B441D /* BPDeviceInfo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BPDeviceInfo.modulemap; sourceTree = "<group>"; };
 		714AB38D7DCE21613970926120219A86 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIDevice+Extension.swift"; path = "BPDeviceInfo/Classes/UIDevice+Extension.swift"; sourceTree = "<group>"; };
@@ -50,13 +52,13 @@
 		8AF8AA610AFFB904C702170178E3C3FE /* BPDeviceInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BPDeviceInfo.debug.xcconfig; sourceTree = "<group>"; };
 		8B0340B2132FA752A220D7921752760E /* Pods-BPDeviceInfo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BPDeviceInfo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8F18DA7EA82D5C23AEC02D7DF19FB620 /* BPDeviceInfo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BPDeviceInfo-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2A5328096030509199D48306C210CA8 /* Pods-BPDeviceInfo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BPDeviceInfo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A8853698321B2B45CA0998D2FFD31B25 /* BPDeviceInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BPDeviceInfo-dummy.m"; sourceTree = "<group>"; };
 		A95653FA2FDB401E685F8CD8250641C6 /* Pods-BPDeviceInfo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BPDeviceInfo_Tests.modulemap"; sourceTree = "<group>"; };
 		B71254F384C9534CF019D7DBD33FA784 /* Pods-BPDeviceInfo_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BPDeviceInfo_Tests-Info.plist"; sourceTree = "<group>"; };
 		C41591DAAF93C63F3E157ABF4F93CA0B /* Pods-BPDeviceInfo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BPDeviceInfo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CEC8A31FEFD96EB34C6B82DE85165C12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CEC8A31FEFD96EB34C6B82DE85165C12 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D16836DD79B7A7CF77D66C2D0D8AE589 /* SimulateIDFA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimulateIDFA.h; path = BPDeviceInfo/Classes/SimulateIDFA.h; sourceTree = "<group>"; };
 		DF7631FA9D2CB37FD5F653AD0C7C9064 /* Pods-BPDeviceInfo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BPDeviceInfo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 		48D50A6E92991D0BD0B4E4081BDFD27B /* BPDeviceInfo */ = {
 			isa = PBXGroup;
 			children = (
+				22A26F37267C81A8009208AC /* Bundle+Extension.swift */,
 				08115CC715214205F6CEC07D509CB767 /* BPDeviceInfo.swift */,
 				885C3C9AC8D1DF3CC034E5A54B832A59 /* BPDeviceInfoGlobal.swift */,
 				D16836DD79B7A7CF77D66C2D0D8AE589 /* SimulateIDFA.h */,
@@ -309,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BCBEEB411140C5CB196C071351D29C5 /* BPDeviceInfo-dummy.m in Sources */,
+				22A26F38267C81A8009208AC /* Bundle+Extension.swift in Sources */,
 				F0472D4754A000546AEECF40A236BA73 /* BPDeviceInfo.swift in Sources */,
 				9B70F361F28CEC35248911C544DB84DF /* BPDeviceInfoGlobal.swift in Sources */,
 				466EEF9D1651DAD56C7411E40E62CAE6 /* SimulateIDFA.m in Sources */,
@@ -482,8 +486,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
