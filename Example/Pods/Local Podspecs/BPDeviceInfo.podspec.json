@@ -1,6 +1,6 @@
 {
   "name": "BPDeviceInfo",
-  "version": "0.1.1",
+  "version": "0.1.7",
   "summary": "Get device info",
   "description": "TODO: Add long description of the pod here.\nThis is description",
   "homepage": "https://github.com/BPModels/BPDeviceInfo",
@@ -13,10 +13,12 @@
   },
   "source": {
     "git": "https://github.com/BPModels/BPDeviceInfo.git",
-    "tag": "0.1.1"
+    "tag": "0.1.7"
   },
+  "swift_versions": "5.0",
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
-  "source_files": "BPDeviceInfo/**/*.{h,m,swift}"
+  "source_files": "BPDeviceInfo/**/*.{h,m,swift}",
+  "swift_version": "5.0"
 }
